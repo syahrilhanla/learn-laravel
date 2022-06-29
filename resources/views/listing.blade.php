@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>LaraGigs | Find Laravel Jobs & Projects</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LaraGigs | Find Laravel Jobs & Projects</title>
+</head>
 
-    <body>
-        @extends('layout')
-        @section('content')
+<body>
+    @extends('layout')
+    @section('content')
         <a href="/" class="inline-block text-black ml-4 mb-4"><i class="fa-solid fa-arrow-left"></i> Back
         </a>
         <div class="mx-4">
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        @endsection
-    </body>
+    @endsection
+</body>
 
 </html>

@@ -7,14 +7,18 @@
   <title>Listing</title>
 </head>
 <body>
-    <h1>
-      {{$listing['title']}}
-    </h1>
-    <h1>
-      {{$listing['description']}}
-    </h1>
-    <button>
-      <a href="/">Go Back</a>    
-    </button>
+  @extends('layout')
+  @section('content')
+      
+  <h1>
+    {{$listing['title']}}
+  </h1>
+  <h1>
+    {{$listing['description']}}
+  </h1>
+  <button>
+    <a href="/">Go Back</a>    
+  </button>
+  @endsection
 </body>
 </html>

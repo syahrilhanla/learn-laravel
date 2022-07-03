@@ -8,13 +8,13 @@ use Illuminate\Http\Request;
 class ListingController extends Controller
 {
     public function index() {
-        return view("listings", [
+        return view("listings.index", [
             "listings" => Listing::all()
         ]); 
     }
 
-    public function find(Listing $listing) {
-        return view('listing', [
+    public function show(Listing $listing) {
+        return view('listings.show', [
             'listing' => $listing
         ]);
     } 

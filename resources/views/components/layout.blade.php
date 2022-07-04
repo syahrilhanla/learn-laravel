@@ -55,6 +55,8 @@
 
         <a href="/listings/create" class="absolute top-['50%'] right-10 bg-black text-white py-1 px-5">Post Job</a>
     </footer>
+
+    <x-flash-message />
 </body>
 
 </html>
